@@ -1,0 +1,47 @@
+Exercice : Opérations CRUD sur une base de données d'un système de gestion d'employés
+Contexte :
+Vous travaillez dans une entreprise fictive et vous devez créer et gérer une base de données SQL pour stocker les informations sur les employés. Les employés ont un identifiant unique, un prénom, un nom, un département, un salaire et une date d'embauche. Vous devez effectuer des opérations CRUD pour gérer ces informations.
+
+1. Création de la table :
+Avant de commencer les opérations CRUD, vous devez créer une table appelée employees pour stocker les informations sur les employés. Voici les colonnes à inclure :
+
+id : identifiant unique de l'employé (type INT).
+first_name : prénom de l'employé (type VARCHAR).
+last_name : nom de famille de l'employé (type VARCHAR).
+department : département dans lequel travaille l'employé (type VARCHAR).
+salary : salaire de l'employé (type DECIMAL).
+hire_date : date d'embauche de l'employé (type DATE).
+Question 1 : Écrivez la requête SQL pour créer la table employees.
+
+2. Insertion des données (Create) :
+Vous devez maintenant insérer quelques employés dans la table employees. Utilisez des valeurs fictives pour chaque employé.
+
+Question 2 : Écrivez la requête SQL pour insérer les informations suivantes dans la table employees :
+
+Employé 1 : Alice, Dupont, IT, 50000.00, 2020-01-15
+Employé 2 : Bob, Martin, Marketing, 45000.00, 2019-06-20
+Employé 3 : Charlie, Lemoine, HR, 40000.00, 2021-03-10
+
+3. Lecture des données (Read) :
+Vous souhaitez maintenant récupérer des informations sur les employés. Écrivez des requêtes pour effectuer les opérations suivantes :
+
+Question 3 : Écrivez la requête SQL pour afficher tous les employés dans la table employees.
+
+Question 4 : Écrivez la requête SQL pour récupérer uniquement les employés travaillant dans le département IT.
+
+Question 5 : Écrivez la requête SQL pour afficher les employés dont le salaire est supérieur à 45000.
+
+4. Mise à jour des données (Update) :
+Vous avez appris qu'un employé a eu une augmentation de salaire et un changement de département. Vous devez mettre à jour ces informations dans la table.
+
+Question 6 : Écrivez la requête SQL pour augmenter le salaire de l'employé Bob Martin à 50000.00 et changer son département à Sales.
+
+5. Suppression des données (Delete) :
+Enfin, un employé a quitté l'entreprise et vous devez supprimer ses informations de la base de données.
+
+Question 7 : Écrivez la requête SQL pour supprimer l'employé Charlie Lemoine de la table employees.
+
+. Bonus - Requête de tri et d'agrégation :
+Question 8 : Écrivez une requête SQL pour afficher les employés triés par salaire (du plus élevé au plus bas).
+
+Question 9 : Écrivez une requête SQL pour obtenir le salaire moyen des employés dans la table.
